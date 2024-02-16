@@ -1,1 +1,4 @@
-# MovieSite
+to run 
+npm run dev
+
+
