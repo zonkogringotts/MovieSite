@@ -16,11 +16,11 @@ export default function Navbar() {
 
   return (
     <nav className="nav">
-      <img className = "logo" src = {logo}/>
+      <img className = "logo" src = {logo} alt = ""/>
     
       <ul className = "nav-menu">
         <li>
-          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
 
         <li>
@@ -36,7 +36,7 @@ export default function Navbar() {
         
       </ul>
       <div className = "searchBar">
-            <img src = {searchBtn}/>
+            <img src = {searchBtn} alt = ""/>
             <input type = "search"/>
         
           </div>
@@ -44,7 +44,7 @@ export default function Navbar() {
 
         
           
-        <img style ={{width:"25px"}} className = "loginBtn"src = {login}/>
+        <img style ={{width:"25px"}} className = "loginBtn"src = {login} alt = ""/>
       {/* <div class="menu-btn">
           <div className="btn-line"></div>
           <div className="btn-line"></div>
